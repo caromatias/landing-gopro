@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+}
+#goPro-contentPrincipal{
+    width: 958px;
+}
+#goPro-Banner{
+    width: 958px;
+    height: 550px;
+    background-image: url('../images/goPro-fondoBanner.jpg');
+}
+#goPro-logoHero{
+    width: 180px;
+    height: 80px;
+    background-image: url('../images/goPro-spriteLogos.png');
+    background-repeat: no-repeat;
+    background-position: 19px -43px;
+}
+#goPro-logoCamera{
+    width: 278px;
+    height: 300px;
+    background-image: url('../images/goPro-spriteCameras.png');
+    background-repeat: no-repeat;
+    background-position: 15px 41px;
+    margin: 0 auto;
+}
+#goPro-logoGoPro{
+    width: 270px;
+    height: 85px;
+    background-image: url('../images/goPro-spriteLogos.png');
+    background-repeat: no-repeat;
+    background-position: -677px -40px;
+    margin: 0 auto;
+}
+.goPro-Barra{
+    width: 958px;
+    height: 100px;
+    background-image: url('../images/goPro-spriteLogos.png');
+    background-position: -1px -128px;
+}
+#goPro-Video{
+    width: 958px;
+    height: 550px;
+    background-image: url('../images/goPro-fondoVideo.jpg');
+}
+#goPro-Cameras{
+    width: 958px;
+    height: 550px;
+    background-color: #FFFFFF;
+}
+#goPro-logoHero-big{
+    width: 350px;
+    height: 110px;
+    background-image: url('../images/goPro-spriteLogos.png');
+    background-repeat: no-repeat;
+    background-position: -325px -12px;
+    margin: 0px 0px 0px 60px;
+}
+#goPro-cameraHeroAd{
+    width: 400px;
+    height: 250px;
+    margin: 0px 0px 0px 60px;
+}
+#goPro-cameraHeroAd p{
+    font-family: helvetica, sans-serif;
+    float: left;
+}
+#goPro-cameraHeroAd p span{
+    font-weight: bold;
+}
+#goPro-cameraHeroAd-image{
+    width: 100px;
+    height: 240px;
+    background-image: url('../images/goPro-spriteCameras.png');
+    background-repeat: no-repeat;
+    background-position: 0px -240px;
+    margin: 0px 0px 0px 0px;
+    float: left;
+}
