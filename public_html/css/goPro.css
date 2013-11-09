@@ -81,11 +81,61 @@ body{
     margin: 5px 0px 0px 0px;
     float: left;
 }
+#goPro-cameraHeroSu{
+    width: 400px;
+    height: 250px;
+    margin: -75px 0px 0px 60px;
+    float: left;
+}
+#goPro-cameraHeroSu p{
+    font-family: helvetica, sans-serif;
+    color: #0095F1;
+    font-size: 18px;
+    float: left;
+    margin: 65px 0px 0px 0px;
+}
+#goPro-cameraHeroSu p span{
+    font-weight: bold;
+}
+#goPro-cameraHeroSu-image{
+    width: 100px;
+    height: 240px;
+    background-image: url('../images/goPro-spriteCameras.png');
+    background-repeat: no-repeat;
+    background-position: -5px -242px;
+    margin: 5px 0px 0px 0px;
+    float: left;
+}
+#goPro-cameraHeroWh{
+    width: 410px;
+    height: 250px;
+    margin: -25px 0px 0px 45px;
+    float: left;
+}
+#goPro-cameraHeroWh p{
+    font-family: helvetica, sans-serif;
+    color: #0095F1;
+    font-size: 18px;
+    float: left;
+    margin: 65px 0px 0px 0px;
+}
+#goPro-cameraHeroWh p span{
+    font-weight: bold;
+}
+#goPro-cameraHeroWh-image{
+    width: 210px;
+    height: 210px;
+    background-image: url('../images/goPro-spriteCameras.png');
+    background-repeat: no-repeat;
+    background-position: -557px -345px;
+    margin: 37px 0px 0px 0px;
+    float: left;
+}
 ul {
     float: left;
     list-style-image: url('../images/mark-li.jpg');
     list-style-type: square;
-    padding: 0px 100px 0px 15px;
+    padding: 0px 60px 0px 15px;
     margin: 0px 0px 0px 0px;
 }
 li{
