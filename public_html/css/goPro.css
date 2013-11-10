@@ -38,10 +38,23 @@ body{
     background-image: url('../images/goPro-spriteLogos.png');
     background-position: -1px -128px;
 }
+.goPro-Barra p{
+    font-family: Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 0px 0px 0px 0px;
+    padding: 15px 0px 15px 30px;
+}
 #goPro-Video{
     width: 958px;
     height: 550px;
     background-image: url('../images/goPro-fondoVideo.jpg');
+}
+#contentVideo{
+    width: 700px;
+    height: 393px;
+    margin: 25px 0px 0px 115px;
 }
 #goPro-Cameras{
     width: 958px;
@@ -198,13 +211,19 @@ li{
 }
 #goPro-accesorios{
     width: 958px;
-    height: 1101px;
+    min-height: 650px;
     background-color: #212121;
+    float: left;
 }
 #contentAccesorios{
     width: 958px;
-    height: 957px;
     margin: -36px 0px 0px 0px;
+    float: left;
+}
+#contentAccesorios2{
+    width: 958px;
+    margin: -36px 0px 0px 0px;
+    float: left;
 }
 .goPro-cuadroAccesorioLi{
     width: 319px;
@@ -340,6 +359,7 @@ li{
 #goPro-footer{
     width: 958px;
     height: 90px;
+    float: left;
     background-color: #1A1A1A;
     -webkit-box-shadow: inset 1px 0px 50px 0px #000000;
     -moz-box-shadow: inset 1px 0px 50px 0px #000000;
