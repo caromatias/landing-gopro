@@ -45,7 +45,7 @@ body{
 }
 #goPro-Cameras{
     width: 958px;
-    height: 550px;
+    height: 967px;
     background-color: #FFFFFF;
 }
 #goPro-logoHero-big{
@@ -131,6 +131,31 @@ body{
     margin: 37px 0px 0px 0px;
     float: left;
 }
+#goPro-cameraHeroSi{
+    width: 400px;
+    height: 250px;
+    margin: 10px 0px 0px -63px;
+    float: left;
+}
+#goPro-cameraHeroSi p{
+    font-family: helvetica, sans-serif;
+    color: #0095F1;
+    font-size: 18px;
+    float: left;
+    margin: 65px 0px 0px 0px;
+}
+#goPro-cameraHeroSi p span{
+    font-weight: bold;
+}
+#goPro-cameraHeroSi-image{
+    width: 210px;
+    height: 210px;
+    background-image: url('../images/goPro-spriteCameras.png');
+    background-repeat: no-repeat;
+    background-position: -554px -560px;
+    margin: 42px 0px 0px 0px;
+    float: left;
+}
 ul {
     float: left;
     list-style-image: url('../images/mark-li.jpg');
@@ -161,4 +186,193 @@ li{
     background-repeat: no-repeat;
     background-position: -253px -11px;
     margin: -24px 0px 0px 0px;
+}
+#goPro-cameraEnBi{
+    width: 565px;
+    height: 350px;
+    float: left;
+    background-image: url('../images/goPro-spriteCameras.png');
+    background-repeat: no-repeat;
+    background-position: 13px -479px;
+    margin: 5px 0px 0px 0px;
+}
+#goPro-accesorios{
+    width: 958px;
+    height: 1101px;
+    background-color: #212121;
+}
+#contentAccesorios{
+    width: 958px;
+    height: 957px;
+    margin: -36px 0px 0px 0px;
+}
+.goPro-cuadroAccesorioLi{
+    width: 319px;
+    height: 319px;
+    float: left;
+    cursor: pointer;
+    background-color: #1A1A1A;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;
+}
+.goPro-cuadroAccesorioLi:hover{
+    background-color: #0096ED;
+}
+.goPro-cuadroAccesorioBo{
+    width: 319px;
+    height: 319px;
+    float: left;
+    cursor: pointer;
+    background-color: #111111;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;
+}
+.goPro-cuadroAccesorioBo:hover{
+    background-color: #0096ED;
+}
+.goPro-descAccesorio{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #A8A9AD;
+    margin: 40px 0px 0px 0px;
+    text-align: center;
+}
+#goPro-3528954{
+    width: 170px;
+    height: 150px;
+    background-image: url('../images/goPro-spriteAccesorios.png');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    margin: 65px 0px 0px 70px;
+}
+#goPro-3598881{
+    width: 170px;
+    height: 150px;
+    background-image: url('../images/goPro-spriteAccesorios.png');
+    background-repeat: no-repeat;
+    background-position: -175px 0px;
+    margin: 65px 0px 0px 70px;
+}
+#goPro-3600367{
+    width: 170px;
+    height: 165px;
+    background-image: url('../images/goPro-spriteAccesorios.png');
+    background-repeat: no-repeat;
+    background-position: -338px 0px;
+    margin: 50px 0px 0px 70px;
+}
+#goPro-3600375{
+    width: 170px;
+    height: 150px;
+    background-image: url('../images/goPro-spriteAccesorios.png');
+    background-repeat: no-repeat;
+    background-position: 0px -150px;
+    margin: 65px 0px 0px 70px;
+}
+#goPro-3600350{
+    width: 150px;
+    height: 165px;
+    background-image: url('../images/goPro-spriteAccesorios.png');
+    background-repeat: no-repeat;
+    background-position: -502px 0px;
+    margin: 50px 0px 0px 85px;
+}
+#goPro-3063337{
+    width: 165px;
+    height: 165px;
+    background-image: url('../images/goPro-spriteAccesorios.png');
+    background-repeat: no-repeat;
+    background-position: -195px -163px;
+    margin: 50px 0px 0px 75px;
+}
+#goPro-3063331{
+    width: 200px;
+    height: 165px;
+    background-image: url('../images/goPro-spriteAccesorios.png');
+    background-repeat: no-repeat;
+    background-position: -378px -163px;
+    margin: 50px 0px 0px 60px;
+}
+#goPro-3600373{
+    width: 155px;
+    height: 165px;
+    background-image: url('../images/goPro-spriteAccesorios.png');
+    background-repeat: no-repeat;
+    background-position: -622px 2px;
+    margin: 50px 0px 0px 85px;
+}
+#goPro-3600361{
+    width: 200px;
+    height: 150px;
+    background-image: url('../images/goPro-spriteAccesorios.png');
+    background-repeat: no-repeat;
+    background-position: -564px -505px;
+    margin: 65px 0px 0px 60px;
+}
+#goPro-avanza{
+    width: 958px;
+    height: 80px;
+    float: left;
+}
+#goPro-contentItems{
+    width: 100px;
+    height: 50px;
+    margin: 15px 0px 0px 430px;
+}
+.goPro-items{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.goPro-itemUno{
+    background-image: url(../images/goPro-spriteAccesorios.png);
+    background-repeat: no-repeat;
+    background-position: -616px -205px;
+}
+.goPro-itemDos{
+    background-image: url(../images/goPro-spriteAccesorios.png);
+    background-repeat: no-repeat;
+    background-position: -672px -205px;
+}
+#goPro-footer{
+    width: 958px;
+    height: 90px;
+    background-color: #1A1A1A;
+    -webkit-box-shadow: inset 1px 0px 50px 0px #000000;
+    -moz-box-shadow: inset 1px 0px 50px 0px #000000;
+    -o-box-shadow: inset 1px 0px 50px 0px #000000;
+    -ms-box-shadow: inset 1px 0px 50px 0px #000000;
+    box-shadow: inset 1px 0px 50px 0px #000000;
+}
+#goPro-logoFooter{
+    width: 212px;
+    height: 65px;
+    float: left;
+    background-image: url('../images/goPro-spriteLogos.png');
+    background-repeat: no-repeat;
+    background-position: -745px -230px;
+    margin: 18px 0px 0px 0px;
+}
+#goPro-footer p{
+    font-family: Helvetica, sans-serif;
+    font-size: 19px;
+    color: #8F9092;
+    margin: 52px 0px 0px 0px;
+    float: left;
+}
+#goPro-footer p span{
+    color: #0293EC!important;
+    font-weight: bold;
+}
+#goPro-logoHeroFooter{
+    width: 160px;
+    height: 65px;
+    float: right;
+    background-image: url('../images/goPro-spriteLogos.png');
+    background-repeat: no-repeat;
+    background-position: -170px -62px;
+    margin: 18px 15px 0px 0px;
 }
